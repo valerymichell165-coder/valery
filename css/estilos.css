@@ -1,0 +1,209 @@
+
+
+
+/*
+
+
+1. Etiquetas html
+2. Identificadores
+3. Clases
+
+1. El orden de definición es alfabético.
+2. Los atributos también se ordenan alfabéticamente.
+3. En el body siempre se debe definir un tamaño de fuente.
+4. Para agregar un background puedes utilizar:
+background: url(../img/fondo10.jpg) no-repeat center center fixed;
+
+*/
+
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Montserrat.ttf) format("truetype");
+}
+
+
+/* SELECTOR UNIVERSAL */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 1. ETIQUETAS HTML */
+
+body {
+    background-color: #C5A3E0;
+    background-size: cover;
+    font-family: "Montserrat", Helvetica, Verdana;
+    font-size: 14px;
+}
+
+footer {
+    background: rgba(166, 120, 201, 1);
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    width: 1000px;
+}
+
+footer a {
+    float: left;
+    text-decoration: none;
+}
+
+header {
+    height: 145px;
+    width: 1000px;
+}
+
+header h1 {
+    color: #4B315E;
+    font-size: 30px;
+    margin: 60px 0 0 40px;
+    position: absolute;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 1px;
+}
+
+nav ul li a {
+    color: #A678C9;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #7C4D9E;
+    text-shadow: 2px 2px 6px #E8D8FF;
+}
+
+
+/* 2. IDENTIFICADORES */
+
+#banner {
+    background: rgba(232, 216, 255, 1);
+    height: 240px;
+    padding: 40px;
+    width: 920px;
+}
+
+#banner #promo1 h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#contenedor {
+    height: auto;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#icono1, #icono2, #icono3 {
+    background: #E8D8FF;
+    border-radius: 70px;
+    box-shadow: 7px 2px 10px rgba(74, 49, 94, 0.25);
+    height: 140px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+}
+
+#icono1 {
+    background: url(../img/emprender.png) center;
+}
+
+#icono2 {
+    background: url(../img/sena_aprendiz_1.jpg) center;
+}
+
+#icono3 {
+    background: url(../img/emprender2.jpg) center;
+}
+
+#promo1 a {
+    background: #A678C9;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    height: 40px;
+    margin-top: 160px;
+    padding-top: 15px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+#promo1 a:hover {
+    background: #C9A0DC;
+}
+
+#promo1 a:active {
+    background: #7C4D9E;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#promo1 img {
+    float: right;
+    height: 250px;
+    margin-right: 15px;
+    position: relative;
+    width: 400px;
+}
+
+#servicio1, #servicio2, #servicio3 {
+    display: inline-block;
+    height: 285px;
+    padding: 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 290px;
+}
+
+#servicios {
+    background: rgba(247, 200, 224, 1);
+    height: 350px;
+    margin: 20px 0;
+    width: 1000px;
+}
+
+
+/* 3. CLASES */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+.fa-twitter {
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.logo {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
